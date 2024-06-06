@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "**/*", // This matches all files
+      "src": "index.html", // This matches all files
       "use": "@vercel/static-build"
     }
   ],

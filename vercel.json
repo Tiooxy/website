@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.html", // This matches all files
+      "src": "index.html",
       "use": "@vercel/static-build"
     }
   ],
   "routes": [
     {
-      "src": "/(.*)", // This matches any route
-      "dest": "/index.html" // This will serve your index.html file 
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }

@@ -95,7 +95,7 @@
   /**
    * shadow
    */
-  
+
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
   --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
@@ -333,7 +333,12 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 50px;
+}
+
+.rounded-img {
+border-radius: 100%;
+border: 2px solid white;
 }
 
 .info-content .name {
@@ -1638,7 +1643,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin-left: auto;
   }
-  
+
 }
 
 
@@ -1874,8 +1879,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-	 * RESUME
-	 */
+   * RESUME
+   */
 
   .timeline-text { max-width: 700px; }
 
